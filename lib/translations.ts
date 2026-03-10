@@ -1,0 +1,206 @@
+export type Language = "ru" | "uz"
+
+export const translations = {
+  ru: {
+    nav: {
+      home: "Главная",
+      tours: "Туры",
+      about: "О нас",
+      contact: "Контакты",
+    },
+    hero: {
+      title: "Туры в Китай с Urban Travel",
+      subtitle: "Организованные групповые и бизнес поездки в Китай.",
+      ctaTours: "Смотреть туры",
+      ctaContact: "Связаться с нами",
+    },
+    about: {
+      title: "О компании",
+      text: "Urban Travel — туристическая компания из Ташкента, специализирующаяся на организации поездок в Китай.\nМы организуем туристические, бизнес и выставочные поездки, а также помогаем с логистикой и сопровождением в Китае.",
+      stats: "14 лет опыта и более 10 000 клиентов.",
+      readMore: "Узнать больше",
+    },
+    tours: {
+      title: "Актуальные туры",
+      pageTitle: "Все туры",
+      viewAll: "Все туры",
+      details: "Подробнее",
+      from: "от",
+      noTours: "Туры не найдены",
+    },
+    gallery: {
+      title: "Галерея путешествий",
+      subtitle: "Откройте для себя Китай во всём его многообразии",
+    },
+    services: {
+      title: "Помощь в Китае",
+      text: "Мы помогаем с покупкой авиа и железнодорожных билетов внутри Китая. Также предоставляем услуги переводчиков и трансферов.",
+    },
+    booking: {
+      title: "Оставить заявку на тур",
+      name: "Имя",
+      phone: "Телефон",
+      commentOptional: "Комментарий (необязательно)",
+      submit: "Отправить заявку",
+      submitting: "Отправляем...",
+      success: "Спасибо! Мы свяжемся с вами в ближайшее время.",
+      namePlaceholder: "Ваше имя",
+      phonePlaceholder: "+998 XX XXX XX XX",
+      commentPlaceholder: "Ваш комментарий...",
+      nameRequired: "Введите ваше имя",
+      phoneRequired: "Введите номер телефона",
+    },
+    contact: {
+      title: "Связаться с нами",
+      address: "Адрес",
+      addressLine1: "ул. Махтумкули, 79",
+      addressLine2: "City Plaza, 8 этаж, офис 820, Ташкент",
+      phone: "Телефон",
+      email: "Email",
+      hours: "Время работы",
+      hoursValue: "Понедельник — воскресенье\n9:00 — 18:00",
+      mapTitle: "Мы на карте",
+      social: "Социальные сети",
+    },
+    footer: {
+      tagline:
+        "Туристическая компания из Ташкента, специализирующаяся на организации поездок в Китай.",
+      contacts: "Контакты",
+      social: "Мы в социальных сетях",
+      rights: "Все права защищены.",
+    },
+    aboutPage: {
+      howItStartedLabel: "Наша история",
+      title: "О компании Urban Travel",
+      subtitle: "Туристическая компания из Ташкента",
+      desc1:
+        "Urban Travel — туристическая компания из Ташкента, специализирующаяся на организации поездок в Китай. Мы помогаем жителям Узбекистана открыть для себя удивительную страну с тысячелетней историей.",
+      desc2:
+        "Мы организуем туристические, бизнес и выставочные поездки, а также помогаем с логистикой и сопровождением в Китае. Наша команда берёт на себя все организационные вопросы — от оформления документов до трансферов на месте.",
+      stats: [
+        { value: "14 лет", label: "опыта работы с Китаем" },
+        { value: "10 000+", label: "туристов и бизнес клиентов" },
+        { value: "50+", label: "туров в год" },
+        { value: "100%", label: "положительных отзывов" },
+      ],
+      whyTitle: "Почему Urban Travel?",
+      advantages: [
+        "Групповые туристические туры в Китай",
+        "Бизнес поездки и выставки",
+        "B2B поездки и деловые переговоры",
+        "Логистика по Китаю",
+        "Покупка авиа и ж/д билетов внутри Китая",
+        "Сопровождение переводчиков",
+        "Полное сопровождение на протяжении всего путешествия",
+        "14 лет опыта работы с Китаем",
+      ],
+      b2bTitle: "B2B сотрудничество",
+      b2bDesc:
+        "Партнёры могут привозить своих клиентов в Китай — Urban Travel полностью организует поездку. Мы берём на себя весь процесс: программу, трансферы, проживание, переводчиков и сопровождение.",
+      groupTitle: "Групповые туры",
+      groupDesc:
+        "Групповые путешествия — это особый формат, позволяющий комфортно и безопасно познакомиться с новой страной. Путешествуя в группе, вы получаете всестороннюю поддержку, экономите на стоимости тура и приобретаете новых друзей.",
+    },
+  },
+  uz: {
+    nav: {
+      home: "Bosh sahifa",
+      tours: "Turlar",
+      about: "Biz haqimizda",
+      contact: "Aloqa",
+    },
+    hero: {
+      title: "Urban Travel bilan Xitoyga sayohatlar",
+      subtitle: "Xitoyga guruhli va biznes sayohatlar tashkil qilamiz.",
+      ctaTours: "Turlarni ko'rish",
+      ctaContact: "Biz bilan bog'lanish",
+    },
+    about: {
+      title: "Kompaniya haqida",
+      text: "Urban Travel — Toshkentdagi turistik kompaniya bo'lib, Xitoyga sayohatlar tashkil qilishga ixtisoslashgan.\nBiz turistik, biznes va ko'rgazma safarlarini tashkil qilamiz hamda Xitoy bo'ylab logistika va hamrohlik xizmatlarini ko'rsatamiz.",
+      stats: "14 yillik tajriba va 10 000 dan ortiq mijoz.",
+      readMore: "Ko'proq o'qish",
+    },
+    tours: {
+      title: "Joriy turlar",
+      pageTitle: "Barcha turlar",
+      viewAll: "Barcha turlar",
+      details: "Batafsil",
+      from: "dan",
+      noTours: "Turlar topilmadi",
+    },
+    gallery: {
+      title: "Sayohat galereyasi",
+      subtitle: "Xitoyni uning barcha xilma-xilligi bilan kashf eting",
+    },
+    services: {
+      title: "Xitoyda yordam",
+      text: "Biz Xitoy ichida samolyot va poyezd chiptalarini sotib olishda yordam beramiz. Shuningdek, tarjimon va transfer xizmatlarini taqdim etamiz.",
+    },
+    booking: {
+      title: "Tur uchun ariza qoldirish",
+      name: "Ism",
+      phone: "Telefon",
+      commentOptional: "Izoh (ixtiyoriy)",
+      submit: "Ariza yuborish",
+      submitting: "Yuborilmoqda...",
+      success: "Rahmat! Tez orada siz bilan bog'lanamiz.",
+      namePlaceholder: "Ismingiz",
+      phonePlaceholder: "+998 XX XXX XX XX",
+      commentPlaceholder: "Izohingiz...",
+      nameRequired: "Ismingizni kiriting",
+      phoneRequired: "Telefon raqamingizni kiriting",
+    },
+    contact: {
+      title: "Biz bilan bog'lanish",
+      address: "Manzil",
+      addressLine1: "Makhtumkuli ko'chasi, 79",
+      addressLine2: "City Plaza, 8-qavat, 820-ofis, Toshkent",
+      phone: "Telefon",
+      email: "Email",
+      hours: "Ish vaqti",
+      hoursValue: "Dushanba — yakshanba\n9:00 — 18:00",
+      mapTitle: "Xaritada biz",
+      social: "Ijtimoiy tarmoqlar",
+    },
+    footer: {
+      tagline:
+        "Toshkentdagi turistik kompaniya, Xitoyga sayohatlar tashkil qilishga ixtisoslashgan.",
+      contacts: "Aloqa",
+      social: "Ijtimoiy tarmoqlarda",
+      rights: "Barcha huquqlar himoyalangan.",
+    },
+    aboutPage: {
+      howItStartedLabel: "Bizning tarix",
+      title: "Urban Travel kompaniyasi haqida",
+      subtitle: "Toshkentdagi turistik kompaniya",
+      desc1:
+        "Urban Travel — Toshkentdagi turistik kompaniya bo'lib, Xitoyga sayohatlar tashkil qilishga ixtisoslashgan. Biz O'zbekiston aholisiga ming yillik tarixi bo'lgan ajoyib mamlakatni kashf etishga yordam beramiz.",
+      desc2:
+        "Biz turistik, biznes va ko'rgazma safarlarini tashkil qilamiz hamda Xitoy bo'ylab logistika va hamrohlik xizmatlarini ko'rsatamiz. Jamoamiz hujjatlarni rasmiylashtirishdan tortib, joyida transferlargacha barcha tashkiliy masalalarni o'z zimmasiga oladi.",
+      stats: [
+        { value: "14 yil", label: "Xitoy bilan ishlash tajribasi" },
+        { value: "10 000+", label: "turist va biznes mijozlar" },
+        { value: "50+", label: "yiliga turlar" },
+        { value: "100%", label: "ijobiy sharhlar" },
+      ],
+      whyTitle: "Nega Urban Travel?",
+      advantages: [
+        "Xitoyga guruhli turistik turlar",
+        "Biznes sayohatlari va ko'rgazmalar",
+        "B2B sayohatlari va ishbilarmon muzokaralar",
+        "Xitoy bo'ylab logistika",
+        "Xitoy ichida aviachiptalar va poyezd chiptalarini sotib olish",
+        "Tarjimon hamrohlik xizmati",
+        "Butun sayohat davomida to'liq hamrohlik",
+        "Xitoy bilan ishlashda 14 yillik tajriba",
+      ],
+      b2bTitle: "B2B hamkorlik",
+      b2bDesc:
+        "Hamkorlar o'z mijozlarini Xitoyga olib kelishlari mumkin — Urban Travel sayohatni to'liq tashkil qiladi. Biz butun jarayonni: dastur, transferlar, turar joy, tarjimonlar va hamrohlikni o'z zimmamizga olamiz.",
+      groupTitle: "Guruhli turlar",
+      groupDesc:
+        "Guruhli sayohatlar — yangi mamlakatni qulay va xavfsiz ravishda tanish imkonini beruvchi maxsus format. Guruhda sayohat qilib, siz har tomonlama qo'llab-quvvatlanasiz, tur narxidan tejaysiz va yangi do'stlar orttirасiz.",
+    },
+  },
+} as const
