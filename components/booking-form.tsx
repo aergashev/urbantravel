@@ -41,7 +41,7 @@ function countryCodeToFlag(code: string) {
     .join("")
 }
 
-// Dynamic flag addon — renders the correct flag for whatever country is active
+// Dynamic flag addon - renders the correct flag for whatever country is active
 const CountryFlagAddon = ({ value }: { value?: string }) => (
   <InputGroupAddon align="inline-start" className="pr-1">
     <span className="text-base leading-none select-none">

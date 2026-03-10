@@ -195,7 +195,7 @@ export default function HomePage() {
           `}</style>
 
           <div className="space-y-3 overflow-hidden">
-            {/* Row 1 — scrolls left */}
+            {/* Row 1 - scrolls left */}
             <div className="flex gap-3">
               <div className="marquee-left flex shrink-0 gap-3">
                 {[...galleryImages, ...galleryImages].map((img, i) => (
@@ -207,7 +207,7 @@ export default function HomePage() {
                     {/* eslint-disable-next-line @next/next/no-img-element */}
                     <img
                       src={img.src}
-                      alt="Urban Travel — Китай"
+                      alt="Urban Travel - Китай"
                       className="h-full w-full object-cover transition-transform duration-500 group-hover:scale-105"
                       loading="lazy"
                     />
@@ -216,7 +216,7 @@ export default function HomePage() {
               </div>
             </div>
 
-            {/* Row 2 — scrolls right */}
+            {/* Row 2 - scrolls right */}
             <div className="flex gap-3">
               <div className="marquee-right flex shrink-0 gap-3">
                 {[...galleryImages, ...galleryImages].map((img, i) => (
@@ -228,7 +228,7 @@ export default function HomePage() {
                     {/* eslint-disable-next-line @next/next/no-img-element */}
                     <img
                       src={img.src}
-                      alt="Urban Travel — Китай"
+                      alt="Urban Travel - Китай"
                       className="h-full w-full object-cover transition-transform duration-500 group-hover:scale-105"
                       loading="lazy"
                     />
@@ -271,7 +271,7 @@ export default function HomePage() {
           {/* eslint-disable-next-line @next/next/no-img-element */}
           <img
             src={galleryImages[lightboxIndex].src}
-            alt="Urban Travel — Китай"
+            alt="Urban Travel - Китай"
             className="max-h-[85vh] max-w-[85vw] rounded-xl object-contain"
             onClick={(e) => e.stopPropagation()}
           />

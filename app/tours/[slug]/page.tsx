@@ -112,14 +112,14 @@ export default function TourPage({ params }: Props) {
                   className="flex items-center gap-2 text-sm transition-colors hover:text-primary"
                 >
                   <Phone className="h-4 w-4" />
-                  +998 90 393 05 91 — Urban Travel 1
+                  +998 90 393 05 91 - Urban Travel 1
                 </a>
                 <a
                   href="tel:+998936260888"
                   className="flex items-center gap-2 text-sm transition-colors hover:text-primary"
                 >
                   <Phone className="h-4 w-4" />
-                  +998 93 626 08 88 — Urban Travel 2
+                  +998 93 626 08 88 - Urban Travel 2
                 </a>
               </div>
             </div>

@@ -2,74 +2,77 @@
 
 import { MapPin, Phone, Mail, Clock, Send, Instagram } from "lucide-react"
 import { Separator } from "@/components/ui/separator"
+import { Badge } from "@/components/ui/badge"
 import { useLanguage } from "@/components/language-provider"
 import { translations } from "@/lib/translations"
-import { Button } from "@/components/ui/button"
-import Link from "next/link"
+import { BookingForm } from "@/components/booking-form"
+
+const WRAP = "mx-auto w-full max-w-7xl px-6 sm:px-10 lg:px-20"
 
 export default function ContactPage() {
   const { lang } = useLanguage()
-  const t = translations[lang].contact
+  const t = translations[lang]
+  const c = t.contact
 
   return (
     <main className="flex-1">
-      {/* Page header */}
-      <section
-        className="relative border-b py-20"
-        style={{
-          background:
-            "linear-gradient(135deg, oklch(0.12 0.09 222) 0%, oklch(0.25 0.10 222) 35%, oklch(0.40 0.12 222) 70%, oklch(0.609 0.126 221.723) 100%)",
-        }}
-      >
-        <div className="absolute inset-0 bg-black/30" />
-        <div className="relative z-10 container mx-auto px-4 sm:px-6">
-          <h1 className="text-3xl font-bold text-white sm:text-4xl">
-            {t.title}
+      {/* ── HEADER ───────────────────────────────────────────────── */}
+      <section className="border-b bg-background py-20">
+        <div className={WRAP}>
+          <p className="mb-4 text-sm font-semibold tracking-[0.2em] text-muted-foreground uppercase">
+            Urban Travel
+          </p>
+          <h1 className="text-5xl font-bold tracking-[-0.03em] sm:text-6xl">
+            {c.title}
           </h1>
         </div>
       </section>
 
-      {/* Contact info + map */}
-      <section className="py-14">
-        <div className="container mx-auto px-4 sm:px-6">
-          <div className="grid gap-12 lg:grid-cols-[380px_1fr]">
-            {/* Info */}
-            <div className="space-y-8">
+      {/* ── MAIN: form + info ────────────────────────────────────── */}
+      <section className="py-20">
+        <div className={WRAP}>
+          <div className="grid gap-16 lg:grid-cols-[1fr_400px] lg:gap-24">
+
+            {/* LEFT: Booking form */}
+            <div>
+              <div className="mb-8">
+                <Badge className="mb-4">{t.booking.title}</Badge>
+                <p className="text-muted-foreground text-sm max-w-sm">
+                  {lang === "ru"
+                    ? "Оставьте заявку — мы свяжемся с вами в ближайшее время."
+                    : "Ariza qoldiring — tez orada siz bilan bog'lanamiz."}
+                </p>
+              </div>
+              <BookingForm />
+            </div>
+
+            {/* RIGHT: Contact details */}
+            <div className="space-y-0">
               {/* Address */}
-              <div className="flex gap-4">
-                <MapPin className="mt-0.5 h-5 w-5 shrink-0 text-muted-foreground" />
+              <div className="flex gap-4 py-6">
+                <MapPin className="mt-0.5 h-4 w-4 shrink-0 text-primary" />
                 <div>
-                  <p className="mb-1 text-sm font-semibold">{t.address}</p>
-                  <p className="text-sm text-muted-foreground">
-                    {t.addressLine1}
-                  </p>
-                  <p className="text-sm text-muted-foreground">
-                    {t.addressLine2}
-                  </p>
+                  <p className="mb-1 text-sm font-semibold">{c.address}</p>
+                  <p className="text-sm text-muted-foreground">{c.addressLine1}</p>
+                  <p className="text-sm text-muted-foreground">{c.addressLine2}</p>
                 </div>
               </div>
 
               <Separator />
 
-              {/* Phones */}
-              <div className="flex gap-4">
-                <Phone className="mt-0.5 h-5 w-5 shrink-0 text-muted-foreground" />
+              {/* Phone */}
+              <div className="flex gap-4 py-6">
+                <Phone className="mt-0.5 h-4 w-4 shrink-0 text-primary" />
                 <div>
-                  <p className="mb-2 text-sm font-semibold">{t.phone}</p>
+                  <p className="mb-2 text-sm font-semibold">{c.phone}</p>
                   <div className="space-y-1">
                     <p>
-                      <a
-                        href="tel:+998903930591"
-                        className="text-sm text-muted-foreground transition-colors hover:text-foreground"
-                      >
+                      <a href="tel:+998903930591" className="text-sm text-muted-foreground transition-colors hover:text-foreground">
                         +998 90 393 05 91
                       </a>
                     </p>
                     <p>
-                      <a
-                        href="tel:+998936260888"
-                        className="text-sm text-muted-foreground transition-colors hover:text-foreground"
-                      >
+                      <a href="tel:+998936260888" className="text-sm text-muted-foreground transition-colors hover:text-foreground">
                         +998 93 626 08 88
                       </a>
                     </p>
@@ -80,10 +83,10 @@ export default function ContactPage() {
               <Separator />
 
               {/* Email */}
-              <div className="flex gap-4">
-                <Mail className="mt-0.5 h-5 w-5 shrink-0 text-muted-foreground" />
+              <div className="flex gap-4 py-6">
+                <Mail className="mt-0.5 h-4 w-4 shrink-0 text-primary" />
                 <div>
-                  <p className="mb-1 text-sm font-semibold">{t.email}</p>
+                  <p className="mb-1 text-sm font-semibold">{c.email}</p>
                   <a
                     href="mailto:urbantravelchina2025@gmail.com"
                     className="text-sm text-muted-foreground transition-colors hover:text-foreground"
@@ -96,14 +99,12 @@ export default function ContactPage() {
               <Separator />
 
               {/* Hours */}
-              <div className="flex gap-4">
-                <Clock className="mt-0.5 h-5 w-5 shrink-0 text-muted-foreground" />
+              <div className="flex gap-4 py-6">
+                <Clock className="mt-0.5 h-4 w-4 shrink-0 text-primary" />
                 <div>
-                  <p className="mb-1 text-sm font-semibold">{t.hours}</p>
-                  {t.hoursValue.split("\n").map((line, i) => (
-                    <p key={i} className="text-sm text-muted-foreground">
-                      {line}
-                    </p>
+                  <p className="mb-1 text-sm font-semibold">{c.hours}</p>
+                  {c.hoursValue.split("\n").map((line, i) => (
+                    <p key={i} className="text-sm text-muted-foreground">{line}</p>
                   ))}
                 </div>
               </div>
@@ -111,8 +112,8 @@ export default function ContactPage() {
               <Separator />
 
               {/* Social */}
-              <div>
-                <p className="mb-3 text-sm font-semibold">{t.social}</p>
+              <div className="py-6">
+                <p className="mb-3 text-sm font-semibold">{c.social}</p>
                 <div className="flex flex-col gap-2">
                   <a
                     href="https://t.me/urbantravel_uz"
@@ -135,21 +136,20 @@ export default function ContactPage() {
                 </div>
               </div>
             </div>
-
-            {/* Yandex Map */}
-
-            <div className="overflow-hidden rounded-2xl border">
-              <iframe
-                src="https://yandex.ru/map-widget/v1/?um=constructor%3A074f3b6edb110391b1abf9866a06b6a06528fb3988eeaeb47c1b1ca744aee80a&amp;source=constructor"
-                style={{
-                  width: "100%",
-                  height: "100%",
-                  minWidth: "420px",
-                  border: 0,
-                }}
-              ></iframe>
-            </div>
           </div>
+        </div>
+      </section>
+
+      {/* ── MAP ──────────────────────────────────────────────────── */}
+      <section className={`${WRAP} pb-20`}>
+        <p className="mb-6 text-sm font-semibold tracking-[0.15em] text-muted-foreground uppercase">
+          {c.mapTitle}
+        </p>
+        <div className="h-120 overflow-hidden rounded-3xl border">
+          <iframe
+            src="https://yandex.ru/map-widget/v1/?um=constructor%3A074f3b6edb110391b1abf9866a06b6a06528fb3988eeaeb47c1b1ca744aee80a&amp;source=constructor"
+            style={{ width: "100%", height: "100%", border: 0 }}
+          />
         </div>
       </section>
     </main>

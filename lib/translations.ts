@@ -16,7 +16,7 @@ export const translations = {
     },
     about: {
       title: "О компании",
-      text: "Urban Travel — туристическая компания из Ташкента, специализирующаяся на организации поездок в Китай.\nМы организуем туристические, бизнес и выставочные поездки, а также помогаем с логистикой и сопровождением в Китае.",
+      text: "Urban Travel - туристическая компания из Ташкента, специализирующаяся на организации поездок в Китай.\nМы организуем туристические, бизнес и выставочные поездки, а также помогаем с логистикой и сопровождением в Китае.",
       stats: "14 лет опыта и более 10 000 клиентов.",
       readMore: "Узнать больше",
     },
@@ -58,7 +58,7 @@ export const translations = {
       phone: "Телефон",
       email: "Email",
       hours: "Время работы",
-      hoursValue: "Понедельник — воскресенье\n9:00 — 18:00",
+      hoursValue: "Понедельник - воскресенье\n9:00 - 18:00",
       mapTitle: "Мы на карте",
       social: "Социальные сети",
     },
@@ -71,12 +71,13 @@ export const translations = {
     },
     aboutPage: {
       howItStartedLabel: "Наша история",
+      missionLabel: "Миссия",
       title: "О компании Urban Travel",
       subtitle: "Туристическая компания из Ташкента",
       desc1:
-        "Urban Travel — туристическая компания из Ташкента, специализирующаяся на организации поездок в Китай. Мы помогаем жителям Узбекистана открыть для себя удивительную страну с тысячелетней историей.",
+        "Urban Travel - туристическая компания из Ташкента, специализирующаяся на организации поездок в Китай. Мы помогаем жителям Узбекистана открыть для себя удивительную страну с тысячелетней историей.",
       desc2:
-        "Мы организуем туристические, бизнес и выставочные поездки, а также помогаем с логистикой и сопровождением в Китае. Наша команда берёт на себя все организационные вопросы — от оформления документов до трансферов на месте.",
+        "Мы организуем туристические, бизнес и выставочные поездки, а также помогаем с логистикой и сопровождением в Китае. Наша команда берёт на себя все организационные вопросы - от оформления документов до трансферов на месте.",
       stats: [
         { value: "14 лет", label: "опыта работы с Китаем" },
         { value: "10 000+", label: "туристов и бизнес клиентов" },
@@ -96,10 +97,10 @@ export const translations = {
       ],
       b2bTitle: "B2B сотрудничество",
       b2bDesc:
-        "Партнёры могут привозить своих клиентов в Китай — Urban Travel полностью организует поездку. Мы берём на себя весь процесс: программу, трансферы, проживание, переводчиков и сопровождение.",
+        "Партнёры могут привозить своих клиентов в Китай - Urban Travel полностью организует поездку. Мы берём на себя весь процесс: программу, трансферы, проживание, переводчиков и сопровождение.",
       groupTitle: "Групповые туры",
       groupDesc:
-        "Групповые путешествия — это особый формат, позволяющий комфортно и безопасно познакомиться с новой страной. Путешествуя в группе, вы получаете всестороннюю поддержку, экономите на стоимости тура и приобретаете новых друзей.",
+        "Групповые путешествия - это особый формат, позволяющий комфортно и безопасно познакомиться с новой страной. Путешествуя в группе, вы получаете всестороннюю поддержку, экономите на стоимости тура и приобретаете новых друзей.",
     },
   },
   uz: {
@@ -117,7 +118,7 @@ export const translations = {
     },
     about: {
       title: "Kompaniya haqida",
-      text: "Urban Travel — Toshkentdagi turistik kompaniya bo'lib, Xitoyga sayohatlar tashkil qilishga ixtisoslashgan.\nBiz turistik, biznes va ko'rgazma safarlarini tashkil qilamiz hamda Xitoy bo'ylab logistika va hamrohlik xizmatlarini ko'rsatamiz.",
+      text: "Urban Travel - Toshkentdagi turistik kompaniya bo'lib, Xitoyga sayohatlar tashkil qilishga ixtisoslashgan.\nBiz turistik, biznes va ko'rgazma safarlarini tashkil qilamiz hamda Xitoy bo'ylab logistika va hamrohlik xizmatlarini ko'rsatamiz.",
       stats: "14 yillik tajriba va 10 000 dan ortiq mijoz.",
       readMore: "Ko'proq o'qish",
     },
@@ -159,7 +160,7 @@ export const translations = {
       phone: "Telefon",
       email: "Email",
       hours: "Ish vaqti",
-      hoursValue: "Dushanba — yakshanba\n9:00 — 18:00",
+      hoursValue: "Dushanba - yakshanba\n9:00 - 18:00",
       mapTitle: "Xaritada biz",
       social: "Ijtimoiy tarmoqlar",
     },
@@ -172,10 +173,11 @@ export const translations = {
     },
     aboutPage: {
       howItStartedLabel: "Bizning tarix",
+      missionLabel: "Missiya",
       title: "Urban Travel kompaniyasi haqida",
       subtitle: "Toshkentdagi turistik kompaniya",
       desc1:
-        "Urban Travel — Toshkentdagi turistik kompaniya bo'lib, Xitoyga sayohatlar tashkil qilishga ixtisoslashgan. Biz O'zbekiston aholisiga ming yillik tarixi bo'lgan ajoyib mamlakatni kashf etishga yordam beramiz.",
+        "Urban Travel - Toshkentdagi turistik kompaniya bo'lib, Xitoyga sayohatlar tashkil qilishga ixtisoslashgan. Biz O'zbekiston aholisiga ming yillik tarixi bo'lgan ajoyib mamlakatni kashf etishga yordam beramiz.",
       desc2:
         "Biz turistik, biznes va ko'rgazma safarlarini tashkil qilamiz hamda Xitoy bo'ylab logistika va hamrohlik xizmatlarini ko'rsatamiz. Jamoamiz hujjatlarni rasmiylashtirishdan tortib, joyida transferlargacha barcha tashkiliy masalalarni o'z zimmasiga oladi.",
       stats: [
@@ -197,10 +199,10 @@ export const translations = {
       ],
       b2bTitle: "B2B hamkorlik",
       b2bDesc:
-        "Hamkorlar o'z mijozlarini Xitoyga olib kelishlari mumkin — Urban Travel sayohatni to'liq tashkil qiladi. Biz butun jarayonni: dastur, transferlar, turar joy, tarjimonlar va hamrohlikni o'z zimmamizga olamiz.",
+        "Hamkorlar o'z mijozlarini Xitoyga olib kelishlari mumkin - Urban Travel sayohatni to'liq tashkil qiladi. Biz butun jarayonni: dastur, transferlar, turar joy, tarjimonlar va hamrohlikni o'z zimmamizga olamiz.",
       groupTitle: "Guruhli turlar",
       groupDesc:
-        "Guruhli sayohatlar — yangi mamlakatni qulay va xavfsiz ravishda tanish imkonini beruvchi maxsus format. Guruhda sayohat qilib, siz har tomonlama qo'llab-quvvatlanasiz, tur narxidan tejaysiz va yangi do'stlar orttirасiz.",
+        "Guruhli sayohatlar - yangi mamlakatni qulay va xavfsiz ravishda tanish imkonini beruvchi maxsus format. Guruhda sayohat qilib, siz har tomonlama qo'llab-quvvatlanasiz, tur narxidan tejaysiz va yangi do'stlar orttirасiz.",
     },
   },
 } as const
