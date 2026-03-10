@@ -30,7 +30,7 @@ export default function RootLayout({
         inter.variable
       )}
     >
-      <body>
+      <body suppressHydrationWarning>
         <ThemeProvider>
           <LanguageProvider>
             <div className="flex min-h-svh flex-col">

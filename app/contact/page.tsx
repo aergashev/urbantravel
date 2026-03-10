@@ -4,6 +4,8 @@ import { MapPin, Phone, Mail, Clock, Send, Instagram } from "lucide-react"
 import { Separator } from "@/components/ui/separator"
 import { useLanguage } from "@/components/language-provider"
 import { translations } from "@/lib/translations"
+import { Button } from "@/components/ui/button"
+import Link from "next/link"
 
 export default function ContactPage() {
   const { lang } = useLanguage()
@@ -134,18 +136,18 @@ export default function ContactPage() {
               </div>
             </div>
 
-            {/* Google Map */}
+            {/* Yandex Map */}
+
             <div className="overflow-hidden rounded-2xl border">
               <iframe
-                title={t.mapTitle}
-                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2996.4890671975046!2d69.26964857651847!3d41.29542997131088!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x38ae8b6a9c5f5f5f%3A0x3cf8e8e9e9e9e9e9!2sCity%20Plaza%2C%20Makhtumkuli%2079%2C%20Tashkent!5e0!3m2!1sen!2suz!4v1700000000000!5m2!1sen!2suz"
-                width="100%"
-                height="100%"
-                style={{ minHeight: "420px", border: 0 }}
-                allowFullScreen
-                loading="lazy"
-                referrerPolicy="no-referrer-when-downgrade"
-              />
+                src="https://yandex.ru/map-widget/v1/?um=constructor%3A074f3b6edb110391b1abf9866a06b6a06528fb3988eeaeb47c1b1ca744aee80a&amp;source=constructor"
+                style={{
+                  width: "100%",
+                  height: "100%",
+                  minWidth: "420px",
+                  border: 0,
+                }}
+              ></iframe>
             </div>
           </div>
         </div>

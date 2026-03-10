@@ -146,7 +146,7 @@ export default function TourPage({ params }: Props) {
                   )}
                 </div>
                 <CardContent className="pt-5">
-                  <BookingForm />
+                  <BookingForm tour={tour.title[lang]} />
                 </CardContent>
               </Card>
             </div>

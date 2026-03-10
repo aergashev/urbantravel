@@ -4,7 +4,7 @@ import { useState } from "react"
 import Link from "next/link"
 import { usePathname } from "next/navigation"
 import { Menu, X, Phone } from "lucide-react"
-import { Button } from "@/components/ui/button"
+import { Button, buttonVariants } from "@/components/ui/button"
 import { ThemeToggle } from "@/components/ui/theme-toggle"
 import { useLanguage } from "@/components/language-provider"
 import { translations } from "@/lib/translations"
@@ -43,7 +43,7 @@ export function Header() {
                 key={link.href}
                 href={link.href}
                 className={cn(
-                  "text-sm font-medium transition-colors hover:text-foreground",
+                  buttonVariants({ variant: "ghost" }),
                   isActive(link.href)
                     ? "text-foreground"
                     : "text-muted-foreground"
@@ -81,7 +81,7 @@ export function Header() {
                 UZ
               </button>
             </div>
-            <Button asChild size="sm" variant="outline">
+            <Button asChild size="sm" variant="default">
               <a href="tel:+998903930591">
                 <Phone className="h-3.5 w-3.5" />
                 +998 90 393 05 91
