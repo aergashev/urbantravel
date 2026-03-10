@@ -81,13 +81,13 @@ export function Header() {
                 UZ
               </button>
             </div>
+            <ThemeToggle />
             <Button asChild size="sm" variant="default">
               <a href="tel:+998903930591">
                 <Phone className="h-3.5 w-3.5" />
                 +998 90 393 05 91
               </a>
             </Button>
-            <ThemeToggle />
           </div>
 
           {/* Mobile: language switcher + burger */}
