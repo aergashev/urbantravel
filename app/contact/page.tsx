@@ -32,15 +32,14 @@ export default function ContactPage() {
       <section className="py-20">
         <div className={WRAP}>
           <div className="grid gap-16 lg:grid-cols-[1fr_400px] lg:gap-24">
-
             {/* LEFT: Booking form */}
             <div>
               <div className="mb-8">
                 <Badge className="mb-4">{t.booking.title}</Badge>
-                <p className="text-muted-foreground text-sm max-w-sm">
+                <p className="max-w-sm text-sm text-muted-foreground">
                   {lang === "ru"
-                    ? "Оставьте заявку — мы свяжемся с вами в ближайшее время."
-                    : "Ariza qoldiring — tez orada siz bilan bog'lanamiz."}
+                    ? "Оставьте заявку - мы свяжемся с вами в ближайшее время."
+                    : "Ariza qoldiring - tez orada siz bilan bog'lanamiz."}
                 </p>
               </div>
               <BookingForm />
@@ -53,8 +52,12 @@ export default function ContactPage() {
                 <MapPin className="mt-0.5 h-4 w-4 shrink-0 text-primary" />
                 <div>
                   <p className="mb-1 text-sm font-semibold">{c.address}</p>
-                  <p className="text-sm text-muted-foreground">{c.addressLine1}</p>
-                  <p className="text-sm text-muted-foreground">{c.addressLine2}</p>
+                  <p className="text-sm text-muted-foreground">
+                    {c.addressLine1}
+                  </p>
+                  <p className="text-sm text-muted-foreground">
+                    {c.addressLine2}
+                  </p>
                 </div>
               </div>
 
@@ -67,12 +70,18 @@ export default function ContactPage() {
                   <p className="mb-2 text-sm font-semibold">{c.phone}</p>
                   <div className="space-y-1">
                     <p>
-                      <a href="tel:+998903930591" className="text-sm text-muted-foreground transition-colors hover:text-foreground">
+                      <a
+                        href="tel:+998903930591"
+                        className="text-sm text-muted-foreground transition-colors hover:text-foreground"
+                      >
                         +998 90 393 05 91
                       </a>
                     </p>
                     <p>
-                      <a href="tel:+998936260888" className="text-sm text-muted-foreground transition-colors hover:text-foreground">
+                      <a
+                        href="tel:+998936260888"
+                        className="text-sm text-muted-foreground transition-colors hover:text-foreground"
+                      >
                         +998 93 626 08 88
                       </a>
                     </p>
@@ -104,7 +113,9 @@ export default function ContactPage() {
                 <div>
                   <p className="mb-1 text-sm font-semibold">{c.hours}</p>
                   {c.hoursValue.split("\n").map((line, i) => (
-                    <p key={i} className="text-sm text-muted-foreground">{line}</p>
+                    <p key={i} className="text-sm text-muted-foreground">
+                      {line}
+                    </p>
                   ))}
                 </div>
               </div>
