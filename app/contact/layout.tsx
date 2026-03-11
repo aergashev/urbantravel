@@ -15,7 +15,7 @@ export const metadata: Metadata = {
     title: "Biz bilan bog'lanish | Urban Travel",
     description:
       "Urban Travel bilan bog'laning: Toshkent, Makhtumkuli ko'chasi 79, City Plaza, 8-qavat, 820-ofis. Telefon: +998 90 393 05 91.",
-    url: "https://urbantravel.uz/contact",
+    url: "https://urban-travel.uz/contact",
     type: "website",
   },
   twitter: {

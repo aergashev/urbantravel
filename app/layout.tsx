@@ -15,7 +15,7 @@ const fontMono = Geist_Mono({
   variable: "--font-mono",
 })
 
-const SITE_URL = "https://urbantravel.uz"
+const SITE_URL = "https://urban-travel.uz"
 
 const jsonLd = {
   "@context": "https://schema.org",

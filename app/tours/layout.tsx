@@ -15,7 +15,7 @@ export const metadata: Metadata = {
     title: "Xitoyga biznes turlari | Urban Travel",
     description:
       "Urban Travel - Xitoyga barcha biznes turlari: IT va AI, stomatologiya, ko'rgazmalar, B2B uchrashuvlar.",
-    url: "https://urbantravel.uz/tours",
+    url: "https://urban-travel.uz/tours",
     type: "website",
   },
   twitter: {

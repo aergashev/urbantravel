@@ -21,7 +21,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const descriptionUz = tour.highlights.uz.slice(0, 3).join(". ")
   const descriptionRu = tour.highlights.ru.slice(0, 3).join(". ")
   const coverImage = tour.photos[0] ?? "/assets/logo.png"
-  const tourUrl = `https://urbantravel.uz/tours/${slug}`
+  const tourUrl = `https://urban-travel.uz/tours/${slug}`
 
   return {
     title: `${titleUz} | ${titleRu}`,

@@ -15,7 +15,7 @@ export const metadata: Metadata = {
     title: "Biz haqimizda | Urban Travel",
     description:
       "Urban Travel - Toshkentdan 14 yillik tajribaga ega turistik kompaniya. Xitoyga biznes, turizm va ko'rgazma safarlarini tashkil qilamiz.",
-    url: "https://urbantravel.uz/about",
+    url: "https://urban-travel.uz/about",
     type: "website",
   },
   twitter: {
