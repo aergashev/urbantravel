@@ -30,8 +30,8 @@ export const tours: Tour[] = [
     },
     price: "",
     photos: [
-      "/tours/Dental South China 2026/IMG_0201.JPG",
-      "/tours/Dental South China 2026/IMG_0202.PNG",
+      "/tours/dental-south-china/IMG_0201.JPG",
+      "/tours/dental-south-china/IMG_0202.PNG",
     ],
     highlights: {
       ru: [
@@ -81,8 +81,8 @@ Bu safari stomatologiya klinikasi egalari, tibbiy uskunalar distribyutorlari va 
     },
     price: "от 470$",
     photos: [
-      "/tours/Бизнес поездка IT и AI/IMG_0195.JPG",
-      "/tours/Бизнес поездка IT и AI/IMG_0197.JPG",
+      "/tours/it-ai-business-trip/IMG_0195.JPG",
+      "/tours/it-ai-business-trip/IMG_0197.JPG",
     ],
     highlights: {
       ru: [
@@ -132,8 +132,8 @@ Urban Travel transfer, tarjimon va marshrutning barcha tashkiliy logistikasini t
     },
     price: "1090$",
     photos: [
-      "/tours/Весенняя сказка/IMG_0210.JPG",
-      "/tours/Весенняя сказка/IMG_0209.PNG",
+      "/tours/spring-fairy-tale/IMG_0210.JPG",
+      "/tours/spring-fairy-tale/IMG_0209.PNG",
     ],
     highlights: {
       ru: [
@@ -183,8 +183,8 @@ Tur narxi - ikki kishilik xonada 1090 USD, bir kishilik xonada 1290 USD. Aviachi
     },
     price: "1290$",
     photos: [
-      "/tours/Горы Аватара/IMG_0215.JPG",
-      "/tours/Горы Аватара/IMG_0212.JPG",
+      "/tours/avatar-mountains/IMG_0215.JPG",
+      "/tours/avatar-mountains/IMG_0212.JPG",
     ],
     highlights: {
       ru: [
@@ -238,8 +238,8 @@ Guangzhou sayohatni yakun yasaydi: Marvarid daryosi bo'ylab kechki kruiz, tungi 
     },
     price: "1090$",
     photos: [
-      "/tours/семейный тур в Пекин/IMG_0211.JPG",
-      "/tours/семейный тур в Пекин/IMG_0219.JPG",
+      "/tours/family-beijing/IMG_0211.JPG",
+      "/tours/family-beijing/IMG_0219.JPG",
     ],
     highlights: {
       ru: [
@@ -313,8 +313,8 @@ Tur narxi — 1090 USD (ikki kishilik joylashuv). Bu sayohat oilani yanada yaqin
     },
     price: "1090$",
     photos: [
-      "/tours/оздоровительный тур в Китай/IMG_0221.JPG",
-      "/tours/оздоровительный тур в Китай/IMG_0223.JPG",
+      "/tours/health-guangzhou-gulong/IMG_0221.JPG",
+      "/tours/health-guangzhou-gulong/IMG_0223.PNG",
     ],
     highlights: {
       ru: [
