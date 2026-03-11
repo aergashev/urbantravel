@@ -184,7 +184,7 @@ Tur narxi - ikki kishilik xonada 1090 USD, bir kishilik xonada 1290 USD. Aviachi
     price: "1290$",
     photos: [
       "/tours/Горы Аватара/IMG_0215.JPG",
-      "/tours/Горы Аватара/IMG_0211.JPG",
+      "/tours/Горы Аватара/IMG_0212.JPG",
     ],
     highlights: {
       ru: [
@@ -219,6 +219,154 @@ Pekin - tirik tarix: Buyuk devor bo'ylab boshqa sayyohlar bilan uchrashmasdan so
 Chjanczyatsze - so'z bilan ta'riflab bo'lmaydigan joy. Bulutlarda suzayotgan, balandligi 800 metrgacha bo'lgan qoya-ustunlar Jeyms Kameronni "Avatar" ga ilhomlantirdi. "Osmon darvozalari" bilan Tyannmen tog'iga ko'tarilish va dunyodagi eng uzun shisha ko'prik ustida yurish - umrbod taassurotlar.
 
 Guangzhou sayohatni yakun yasaydi: Marvarid daryosi bo'ylab kechki kruiz, tungi megapolisning chiroqlari va eng yaxshi kanton taomlari. Sanalar: 20–28 mart. Joylar soni cheklangan.`,
+    },
+  },
+  {
+    id: "5",
+    slug: "family-beijing",
+    title: {
+      ru: "Семейный тур в Пекин",
+      uz: "Pekinga oilaviy tur",
+    },
+    route: {
+      ru: "Ташкент – Пекин",
+      uz: "Toshkent – Pekin",
+    },
+    dates: {
+      ru: "21–28 марта",
+      uz: "21–28 mart",
+    },
+    price: "1090$",
+    photos: [
+      "/tours/семейный тур в Пекин/IMG_0211.JPG",
+      "/tours/семейный тур в Пекин/IMG_0219.JPG",
+    ],
+    highlights: {
+      ru: [
+        "Великая Китайская стена — подъём по канатной дороге и потрясающие виды",
+        "Мастер-класс по кунг-фу для детей",
+        "Прогулка по атмосферной улице Цяньмэнь",
+        "Храм Неба — символ древнего Китая",
+        "Мастер-класс по китайской каллиграфии",
+        "Universal Studios Beijing — аттракционы мирового уровня",
+        "Музей науки и технологий и планетарий",
+        "Сафари-парк — путешествие среди диких животных",
+        "Свободный день для отдыха и шоппинга",
+        "Стоимость 1090 USD (двухместное размещение)",
+      ],
+      uz: [
+        "Buyuk Xitoy devori — kanat yo‘li orqali ko‘tarilish va ajoyib manzaralar",
+        "Bolalar uchun kung-fu mahorat darsi",
+        "Qianmen ko‘chasida sayr — an’anaviy Pekin muhiti",
+        "Osmon ibodatxonasi — qadimgi Xitoy ramzi",
+        "Xitoy kaligrafiyasi bo‘yicha mahorat darsi",
+        "Universal Studios Beijing — butun oila uchun mashhur attraksionlar",
+        "Fan va texnologiya muzeyi hamda planetariy",
+        "Safari park — yovvoyi hayvonlar orasida sayohat",
+        "Dam olish va shopping uchun erkin kun",
+        "Narxi 1090 USD (2 kishilik joylashuv)",
+      ],
+    },
+    content: {
+      ru: `Семейный тур в Пекин — идеальное путешествие для родителей и детей во время весенних каникул.
+
+Это не просто экскурсии, а настоящее приключение, где история оживает, технологии удивляют, а каждый день приносит новые эмоции.
+
+Вы подниметесь на Великую Китайскую стену на канатной дороге и увидите одно из чудес света с высоты. Дети попробуют себя в роли учеников мастера на мастер-классе по кунг-фу и научатся писать своё имя иероглифами на уроке китайской каллиграфии.
+
+Прогулка по атмосферной улице Цяньмэнь позволит почувствовать традиционный Пекин, а посещение Храма Неба откроет историю древнего Китая.
+
+Один из самых ярких дней — поездка в Universal Studios Beijing с аттракционами мирового уровня. Также вас ждёт Музей науки и технологий и планетарий с интерактивными экспозициями, роботами и экспериментами.
+
+В сафари-парке вы отправитесь в настоящее путешествие среди диких животных. А свободный день позволит отдохнуть, заняться шоппингом и провести время всей семьёй.
+
+Стоимость тура — 1090 USD при двухместном размещении. Это путешествие объединяет семью и дарит детям впечатления на всю жизнь.`,
+      uz: `Pekinga oilaviy tur — bahorgi ta'tilda ota-onalar va bolalar uchun mukammal sayohat.
+
+Bu oddiy ekskursiya emas, balki tarix jonlanadigan, texnologiyalar hayratga soladigan va har bir kun yangi taassurotlarga boy bo‘lgan haqiqiy sarguzashtdir.
+
+Siz kanat yo‘li orqali Buyuk Xitoy devoriga ko‘tarilib, dunyoning eng mashhur mo‘jizalaridan birini balandlikdan tomosha qilasiz. Bolalar kung-fu mahorat darsida o‘zlarini haqiqiy shogirddek his qiladilar va xitoy kaligrafiyasi darsida o‘z ismlarini ierogliflar bilan yozishni o‘rganadilar.
+
+Qianmen ko‘chasida sayr qilish orqali an’anaviy Pekin muhitini his qilasiz, Osmon ibodatxonasi esa qadimgi Xitoy tarixini ochib beradi.
+
+Sayohatning eng yorqin kunlaridan biri — Universal Studios Beijing parkiga tashrif. Bu yerda butun oila uchun jahon darajasidagi attraksionlar mavjud. Shuningdek, Fan va texnologiya muzeyi hamda planetariyda robotlar, tajribalar va interaktiv ko‘rgazmalar orqali o‘rganish imkoniyati bo‘ladi.
+
+Safari parkda esa yovvoyi hayvonlar orasida haqiqiy sarguzasht kutmoqda. Erkin kun esa dam olish, shopping qilish va oilaviy vaqt o‘tkazish uchun ajratiladi.
+
+Tur narxi — 1090 USD (ikki kishilik joylashuv). Bu sayohat oilani yanada yaqinlashtiradi va bolalar uchun unutilmas xotiralar qoldiradi.`,
+    },
+  },
+  {
+    id: "6",
+    slug: "health-guangzhou-gulong",
+    title: {
+      ru: "Оздоровительный тур в Китай",
+      uz: "Xitoyga sog‘lomlashtiruvchi tur",
+    },
+    route: {
+      ru: "Гуанчжоу – Ущелье Гулун",
+      uz: "Guangzhou – Gulun darasi",
+    },
+    dates: {
+      ru: "10–16 апреля",
+      uz: "10–16 aprel",
+    },
+    price: "1090$",
+    photos: [
+      "/tours/оздоровительный тур в Китай/IMG_0221.JPG",
+      "/tours/оздоровительный тур в Китай/IMG_0223.JPG",
+    ],
+    highlights: {
+      ru: [
+        "Гуанчжоу — центр традиционной китайской медицины",
+        "Консультация специалиста в медицинском центре",
+        "Оздоровительные процедуры: гуаша, баночная терапия",
+        "Лечебный массаж туйна",
+        "Иглоукалывание и моксотерапия",
+        "Массаж головы и шеи",
+        "Ущелье Гулун — природное чудо юга Китая",
+        "Прогулка по долине «Тайна Гулун»",
+        "Каскадные водопады и тропические леса",
+        "Стеклянный мост над ущельем",
+        "Стоимость от 1090 USD (двухместное размещение)",
+      ],
+      uz: [
+        "Guangzhou — an’anaviy xitoy tibbiyot markazi",
+        "Tibbiyot markazida mutaxassis konsultatsiyasi",
+        "Sog‘lomlashtiruvchi muolajalar: guasha va banka terapiyasi",
+        "Davolovchi tuyna massaji",
+        "Igna terapiyasi va moksoterapiya",
+        "Bosh va bo‘yin massaji",
+        "Gulun darasi — Xitoy janubining tabiiy mo‘jizasi",
+        "“Gulun siri” vodiysida sayr",
+        "Kaskad sharsharalar va tropik o‘rmonlar",
+        "Dara ustidan o‘tgan mashhur shisha ko‘prik",
+        "Narxi 1090 USD dan (2 kishilik joylashuv)",
+      ],
+    },
+    content: {
+      ru: `Оздоровительный и экскурсионный тур в Китай — идеальное сочетание отдыха, восстановления здоровья и знакомства с природными красотами юга страны.
+
+Гуанчжоу — один из главных центров традиционной китайской медицины. Во время тура вы посетите профессиональный медицинский центр, где специалисты проведут консультацию и подберут процедуры для восстановления организма.
+
+В программу входят популярные методы традиционной китайской медицины: гуаша, баночная терапия, лечебный массаж туйна, иглоукалывание, моксотерапия, а также расслабляющий массаж головы и шеи.
+
+Вторая часть путешествия проходит в живописном ущелье Гулун — одном из самых красивых природных мест юга Китая. Здесь вас ждут тропические леса, каскадные водопады и прогулка по долине «Тайна Гулун».
+
+Особое впечатление оставит прогулка по знаменитому стеклянному мосту над ущельем, открывающему захватывающие виды на горные пейзажи.
+
+Тур сочетает отдых, оздоровление и яркие экскурсии, позволяя полностью восстановить силы и открыть для себя удивительную природу Китая. Стоимость тура — от 1090 USD при двухместном размещении.`,
+      uz: `Xitoyga sog‘lomlashtiruvchi va ekskursiya turi — dam olish, salomatlikni tiklash va mamlakat janubining go‘zal tabiatini kashf qilishning mukammal uyg‘unligi.
+
+Guangzhou shahri an’anaviy xitoy tibbiyotining muhim markazlaridan biri hisoblanadi. Sayohat davomida siz professional tibbiyot markaziga tashrif buyurasiz, bu yerda mutaxassislar konsultatsiya o‘tkazib, organizmni tiklash uchun kerakli muolajalarni tavsiya qiladilar.
+
+Dasturga an’anaviy xitoy tibbiyotining mashhur usullari kiradi: guasha, banka terapiyasi, davolovchi tuyna massaji, igna terapiyasi, moksoterapiya, shuningdek bosh va bo‘yin massaji.
+
+Sayohatning ikkinchi qismi Xitoy janubidagi eng chiroyli tabiiy joylardan biri bo‘lgan Gulun darasida davom etadi. Bu yerda tropik o‘rmonlar, kaskad sharsharalar va “Gulun siri” vodiysida sayr sizni kutmoqda.
+
+Eng hayratlanarli tajribalardan biri — daradan o‘tgan mashhur shisha ko‘prik bo‘ylab yurish bo‘lib, u tog‘ manzaralarining ajoyib ko‘rinishini taqdim etadi.
+
+Bu tur dam olish, sog‘lomlashtirish va qiziqarli ekskursiyalarni birlashtiradi hamda sizga Xitoyning noyob tabiatini kashf qilish imkonini beradi. Tur narxi — 1090 USD dan (ikki kishilik joylashuv).`,
     },
   },
 ]
