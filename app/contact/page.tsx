@@ -35,11 +35,13 @@ export default function ContactPage() {
             {/* LEFT: Booking form */}
             <div>
               <div className="mb-8">
-                <Badge className="mb-4">{t.booking.title}</Badge>
+                <Badge className="mb-4">
+                  {lang === "ru" ? "Начать путешествие" : "Sayohatni boshlash"}
+                </Badge>
                 <p className="max-w-sm text-sm text-muted-foreground">
                   {lang === "ru"
-                    ? "Оставьте заявку - мы свяжемся с вами в ближайшее время."
-                    : "Ariza qoldiring - tez orada siz bilan bog'lanamiz."}
+                    ? "Оставьте заявку или свяжитесь с нами — мы поможем подобрать лучший тур."
+                    : "Ariza qoldiring yoki biz bilan bog'laning — sizga eng yaxshi turni tanlashda yordam beramiz."}
                 </p>
               </div>
               <BookingForm />

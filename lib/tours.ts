@@ -79,7 +79,7 @@ Bu safari stomatologiya klinikasi egalari, tibbiy uskunalar distribyutorlari va 
       ru: "Уточняйте",
       uz: "Aniqlashtiring",
     },
-    price: "от 470$",
+    price: "от 1090$",
     photos: [
       "/tours/it-ai-business-trip/IMG_0195.JPG",
       "/tours/it-ai-business-trip/IMG_0197.JPG",
