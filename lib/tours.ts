@@ -30,8 +30,8 @@ export const tours: Tour[] = [
     },
     price: "",
     photos: [
-      "/gallery/photo_2026-03-11 00.02.08.jpeg",
-      "/gallery/photo_2026-03-11 00.02.12.jpeg",
+      "/tours/Dental South China 2026/IMG_0201.JPG",
+      "/tours/Dental South China 2026/IMG_0202.PNG",
     ],
     highlights: {
       ru: [
@@ -81,8 +81,8 @@ Bu safari stomatologiya klinikasi egalari, tibbiy uskunalar distribyutorlari va 
     },
     price: "от 470$",
     photos: [
-      "/gallery/photo_2026-03-11 00.02.16.jpeg",
-      "/gallery/photo_2026-03-11 00.02.18.jpeg",
+      "/tours/Бизнес поездка IT и AI/IMG_0195.JPG",
+      "/tours/Бизнес поездка IT и AI/IMG_0197.JPG",
     ],
     highlights: {
       ru: [
@@ -132,8 +132,8 @@ Urban Travel transfer, tarjimon va marshrutning barcha tashkiliy logistikasini t
     },
     price: "1090$",
     photos: [
-      "/gallery/photo_2026-03-11 00.02.27.jpeg",
-      "/gallery/photo_2026-03-11 00.02.28.jpeg",
+      "/tours/Весенняя сказка/IMG_0210.JPG",
+      "/tours/Весенняя сказка/IMG_0209.PNG",
     ],
     highlights: {
       ru: [
@@ -183,8 +183,8 @@ Tur narxi - ikki kishilik xonada 1090 USD, bir kishilik xonada 1290 USD. Aviachi
     },
     price: "1290$",
     photos: [
-      "/gallery/photo_2026-03-11 00.02.42.jpeg",
-      "/gallery/photo_2026-03-11 00.02.44.jpeg",
+      "/tours/Горы Аватара/IMG_0215.JPG",
+      "/tours/Горы Аватара/IMG_0211.JPG",
     ],
     highlights: {
       ru: [
