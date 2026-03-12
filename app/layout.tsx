@@ -2,10 +2,9 @@ import type { Metadata } from "next"
 import { Geist_Mono, Inter } from "next/font/google"
 
 import "./globals.css"
+import { AppShell } from "@/components/app-shell"
 import { ThemeProvider } from "@/components/theme-provider"
 import { LanguageProvider } from "@/components/language-provider"
-import { Header } from "@/components/header"
-import { Footer } from "@/components/footer"
 import { cn } from "@/lib/utils"
 
 const inter = Inter({ subsets: ["latin"], variable: "--font-sans" })
@@ -139,11 +138,7 @@ export default function RootLayout({
       <body suppressHydrationWarning>
         <ThemeProvider>
           <LanguageProvider>
-            <div className="flex min-h-svh flex-col">
-              <Header />
-              {children}
-              <Footer />
-            </div>
+            <AppShell>{children}</AppShell>
           </LanguageProvider>
         </ThemeProvider>
       </body>
